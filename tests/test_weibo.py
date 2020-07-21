@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from rss.base import WeiboRSSHandler
+from rss_handlers import WeiboRSSHandler
 from client import Daren
 
 wb_hndlr = WeiboRSSHandler("https://rsshub.app/weibo/user/5992829552")
